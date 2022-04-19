@@ -34,6 +34,11 @@ header {
                 color: currentColor;
                 text-transform: uppercase;
                 font-weight: 600;
+
+                &:hover {
+                    color: #0282F9;
+                    transition: color 250ms linear;
+                }
             }
         }
 
