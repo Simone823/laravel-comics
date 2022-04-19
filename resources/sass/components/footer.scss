@@ -1,0 +1,176 @@
+footer {
+
+    .wrapper_footer {
+        width: 100%;
+        background-image: url("/img/footer-bg.jpg");
+        padding: 0 20px;
+    
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+    
+            .wrapper {
+                flex-basis: calc(100% / 2);
+                color: white;
+                padding: 40px 20px;
+                display: flex;
+                gap: 30px;
+                flex-wrap: wrap;
+    
+                .list-1-wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 25px;
+    
+                    h1 {
+                        text-transform: uppercase;
+                        font-size: 20px;
+                    }
+    
+                    ul {
+                        list-style: none;
+    
+                        li {
+                            padding-bottom: 10px;
+                        }
+    
+                        a {
+                            text-decoration: none;
+                            color: #aaa;
+    
+                            &:hover {
+                                color: white;
+                                text-decoration: underline;
+                                transition: all 180ms linear;
+                            }
+                        }
+                    }
+                }
+    
+                .list-2-wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 25px;
+    
+                    h1 {
+                        text-transform: uppercase;
+                        font-size: 20px;
+                    }
+    
+                    ul {
+                        list-style: none;
+    
+                        li {
+                            padding-bottom: 10px;
+                        }
+    
+                        a {
+                            text-decoration: none;
+                            color: #aaa;
+    
+                            &:hover {
+                                color: white;
+                                text-decoration: underline;
+                                transition: all 180ms linear;
+                            }
+                        }
+                    }
+                }
+    
+                .list-3-wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 25px;
+    
+                    h1 {
+                        text-transform: uppercase;
+                        font-size: 20px;
+                    }
+    
+                    ul {
+                        list-style: none;
+    
+                        li {
+                            padding-bottom: 10px;
+                        }
+    
+                        a {
+                            text-decoration: none;
+                            color: #aaa;
+    
+                            &:hover {
+                                color: white;
+                                text-decoration: underline;
+                                transition: all 180ms linear;
+                            }
+                        }
+                    }
+                }
+    
+            }
+    
+            .logo_dc {
+                background-image: url("/img/dc-logo-bg.png");
+                background-repeat: no-repeat;
+                background-position: center right;
+                flex-shrink: 0;
+            }
+        }
+    }
+    
+
+    nav {
+        background-color: #303030;
+        padding: 25px 20px;
+    
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            row-gap: 20px;
+    
+            button {
+                padding: 15px;
+                text-transform: uppercase;
+                background-color: transparent;
+                color: white;
+                border: 2px solid #0282f9;
+                cursor: pointer;
+    
+                &:hover {
+                    background-color: #0282f9;
+                    border: 2px solid white;
+                    transition: all 280ms linear;
+                }
+            }
+    
+            .social {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                flex-wrap: wrap;
+    
+                h2 {
+                    color: #0282f9;
+                    text-transform: uppercase;
+                }
+    
+                ul {
+                    list-style: none;
+                    display: flex;
+                    gap: 15px;
+
+                    img:hover {
+                        transform: scale(1.15);
+                        transition: all 200ms linear;
+                    }
+                }
+            }
+        }
+    }
+}
