@@ -4,6 +4,12 @@
 // Scss header
 @import "/resources/sass/components/header.scss";
 
+// Scss footer
+@import "/resources/sass/components/footer.scss";
+
+// ---------------------------------------------------------
+
+
 // Reset
 * {
     margin: 0;
@@ -11,3 +17,20 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+    height: 100%;
+    display: block;
+}
+
+ul, 
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+// ---------------------------------
