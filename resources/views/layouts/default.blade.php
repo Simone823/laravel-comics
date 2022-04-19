@@ -20,7 +20,11 @@
 
     {{-- Main --}}
     <main>
+        {{-- Comics --}}
         @include('components.comics')
+
+        {{-- Banner blue --}}
+        @include('components.bannerBlue')
     </main>
 
     {{-- Footer --}}
