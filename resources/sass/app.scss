@@ -4,6 +4,9 @@
 // Scss header
 @import "/resources/sass/components/header.scss";
 
+// Scss comics
+@import "/resources/sass/components/comics.scss";
+
 // Scss footer
 @import "/resources/sass/components/footer.scss";
 
@@ -18,9 +21,11 @@
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: 100%;
     display: block;
+    object-fit: cover;
+    object-position: top;
 }
 
 ul, 

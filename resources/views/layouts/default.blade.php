@@ -15,11 +15,15 @@
 </head>
 <body>
 
+    {{-- Header --}}
     @include('components.header')
 
+    {{-- Main --}}
+    <main>
+        @include('components.comics')
+    </main>
 
-
-
+    {{-- Footer --}}
     @include('components.footer')
 
     
