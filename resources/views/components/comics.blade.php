@@ -1,3 +1,7 @@
+@extends('layouts.default');
+
+@section('mainContent')
+
 <!-- Jumbotron -->
 <section class="jumbotron">
     <div class="container">
@@ -28,3 +32,5 @@
         <button>Load More</button>
     </div>
 </section>
+
+@endsection

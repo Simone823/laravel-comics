@@ -231,5 +231,5 @@ Route::get('/', function () {
     ];
 
 
-    return view('layouts.default', ['comics' => $comics]);
+    return view('components.comics', ['comics' => $comics]);
 });
