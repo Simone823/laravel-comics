@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('metaTitle', 'Comic Info')
+@section('metaTitle', $comic['title'])
 
 
 @section('mainContent')
