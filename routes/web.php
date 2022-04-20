@@ -20,3 +20,18 @@ Route::get('/', function () {
 
     return view('components.comics', ['comics' => $comics]);
 });
+
+Route::get('/comic/info/{id}', function($id) {
+
+    // Array comics
+    $comics = config('comics');
+    
+    // Se non esiste l'indice restituisco page not found
+    abort_unless(isset($comics[$id]), 404);
+
+    // Info singolo comic
+    $comic_info = $comics[$id];
+
+
+    return view('components.comicInfo', ['comic' => $comic_info]);
+})->where('id', '[0-9]+')->name('comic/info');
