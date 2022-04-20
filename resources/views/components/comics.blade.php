@@ -1,4 +1,4 @@
-@extends('layouts.default');
+@extends('layouts.default')
 
 @section('mainContent')
 
@@ -14,16 +14,16 @@
 
     <!-- Container -->
     <div class="cards_wrapper">
-        @foreach ($comics as $element)
+        @foreach ($comics as $key => $element)
             <!-- Card -->
-            <div class="card">
+            <a href="{{route('comic/info', ['id' => $key])}}" class="card">
                 <figure class="card_img">
                     <img src="{{$element['thumb']}}">
                 </figure>
                 <p class="series">{{$element['series']}}</p>
                 <p class="type">{{$element['type']}}</p>
                 <p class="price">{{$element['price']}}</p>
-            </div>
+            </a>
         @endforeach
     </div>   
 
